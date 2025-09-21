@@ -1,0 +1,26 @@
+{
+    "name": "IdleRaiders",
+    "short_name": "IdleRaiders",
+    "description": "An epic idle raiding game where heroes battle through dangerous dungeons to earn $RAID tokens",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#dc2626",
+    "icons": [
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/idle-raiders-logo.png",
+            "sizes": "400x400",
+            "type": "image/png"
+        }
+    ]
+}

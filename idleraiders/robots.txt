@@ -1,0 +1,91 @@
+# Robots.txt for IdleRaiders Game
+# Block all bots from crawling to reduce server load
+
+User-agent: *
+Disallow: /
+
+# Block specific bot user agents that are causing excessive requests
+User-agent: discord-bot
+Disallow: /
+
+User-agent: oai-searchbot
+Disallow: /
+
+User-agent: duckduckbot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: gptbot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+User-agent: ahrefsbot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: DuckDuckGo-Favicons-Bot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Only allow essential crawlers with restrictions
+User-agent: Googlebot
+Allow: /
+Disallow: /game/
+Disallow: /api/
+Crawl-delay: 30
+
+User-agent: Twitterbot
+Allow: /
+Disallow: /game/
+Disallow: /api/
+Crawl-delay: 30
+
+# Crawl delay to reduce server load for any remaining bots
+Crawl-delay: 60
